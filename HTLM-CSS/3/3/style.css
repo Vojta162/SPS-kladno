@@ -1,0 +1,42 @@
+.vedlesebe {
+    display: flex;
+    gap: 4px;
+}
+ 
+.podsebou {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+ 
+.max {
+    flex-grow: 1;
+}
+ 
+.cervenej {
+    background-color: red;
+}
+ 
+.modrej {
+    background-color: blue;
+}
+ 
+.minvelikost {
+    min-height: 50px;
+    min-width: 50px;
+}
+ 
+.obrazovka {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+ 
+* {
+    box-sizing: border-box;
+}
+ 
+html, body {
+    margin: 0;
+    padding: 0;
+}

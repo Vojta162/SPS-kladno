@@ -1,0 +1,45 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.max {
+  flex-grow: 1;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+
+#white {
+    background-color: white;
+}
+
+.min {
+  min-width: 100px;
+  min-height: 100px;
+}
+
+#cernej {
+  background-color: rgb(1, 1, 1);
+}
+
+#zelenej {
+  background-color: hsl(140, 42%, 60.8%);
+}
+
+#zelenejsi {
+  background-color: chartreuse;
+}
+
+#cervenej {
+  background-color: firebrick;
+}
+
+.vedle {
+  display: flex;
+}
+
+.pod {
+  display: flex;
+  flex-direction: column;
+}
